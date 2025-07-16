@@ -25,3 +25,4 @@ function waterPlant() {
   }
   water.addEventListener('animationend', onDropEnd);
 }
+
