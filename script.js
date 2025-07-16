@@ -17,7 +17,7 @@ function waterPlant() {
     stage++;
     if (stage > 3) stage = 3;
     if (stage === 3) {
-      plant.src = 'Stage3.png';
+      plant.src = 'stage3.png';
     } else {
       plant.src = `stage${stage}.png`;
     }
